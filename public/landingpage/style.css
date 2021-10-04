@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    transition: top 0.3s;
+}
+
+.nav .navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin: 0 20px;
+}
+
+.nav .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.nav .navbar a:hover {
+    opacity: 0.5;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #081328;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.25;
+}
+
+.jumbotron {
+    position: relative;
+    max-width: 750px;
+    text-align: center;
+}
+
+.jumbotron h2 {
+    color: #fff;
+    font-size: 45px;
+}
+
+.jumbotron p {
+    color: #fff;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+}
